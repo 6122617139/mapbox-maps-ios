@@ -7,6 +7,7 @@ Mapbox welcomes participation and contributions from everyone.
 ### Breaking changes ⚠️
 
 * `BasicCameraAnimator` now keeps animators alive without the user storing the animator. ([#646](https://github.com/mapbox/mapbox-maps-ios/pull/646/))
+* `MapboxCommon.Geometry` extension methods are now marked as internal. ([#683](https://github.com/mapbox/mapbox-maps-ios/pull/683))
 
 ### Features ✨ and improvements 🏁
 
