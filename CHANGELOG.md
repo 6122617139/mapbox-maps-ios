@@ -12,6 +12,7 @@ Mapbox welcomes participation and contributions from everyone.
 * `public func source<T: Source>(withId id: String) throws -> T` has been updated to `public func source<T>(withId id: String, type: T.Type) throws -> T where T: Source`. ([#694](https://github.com/mapbox/mapbox-maps-ios/pull/694))
 * `@_spi(Experimental) public func layer(withId id: String, type: Layer.Type) throws -> Layer` is no longer experimental and has been updated to `public func layer(withId id: String) throws -> Layer`. ([#694](https://github.com/mapbox/mapbox-maps-ios/pull/694))
 * `@_spi(Experimental) public func source(withId id: String, type: Source.Type) throws  -> Source` is no longer experimental and has been updated to `public func source(withId id: String) throws  -> Source`. ([#694](https://github.com/mapbox/mapbox-maps-ios/pull/694))
+* `public func layerProperty(for layerId: String, property: String) -> Any` has been renamed to `public func layerPropertyValue(for layerId: String, property: String) -> Any` to avoid ambiguity. ([#708](https://github.com/mapbox/mapbox-maps-ios/pull/708))
 
 ## 10.0.0-rc.9 - Sept 22, 2021
 
