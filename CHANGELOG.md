@@ -4,6 +4,9 @@ Mapbox welcomes participation and contributions from everyone.
 
 ## main
 
+### Breaking changes ⚠️
+* The `tapGestureRecognizer` var on each `*AnnotationManager` has been removed in favor of a unified tap gesture recognizer available at `GestureManager.singleTapGestureRecognizer`([#709](https://github.com/mapbox/mapbox-maps-ios/pull/709)).
+
 ## 10.0.0-rc.9 - Sept 22, 2021
 
 ### Breaking changes ⚠️
